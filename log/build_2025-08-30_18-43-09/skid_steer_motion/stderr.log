@@ -1,7 +1,0 @@
-[01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kdouble skid_steer_motion::PurePursuit::GetCurvature(const Pose&)[m[K’:
-[01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pure_pursuit.cpp:134:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Pose[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
-  134 |         return 2 * checkpoint_pose.[01;31m[Ky[m[K / L;
-      |                                    [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:76: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:224: CMakeFiles/pure_pursuit.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
