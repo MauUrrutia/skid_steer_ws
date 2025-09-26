@@ -1,9 +1,0 @@
-setup.py
-skid_steer_motion/__init__.py
-skid_steer_motion/pd_motion_planner.py
-skid_steer_motion/pure_pursuit.py
-skid_steer_motion/skid_steer_motion.py
-skid_steer_motion.egg-info/PKG-INFO
-skid_steer_motion.egg-info/SOURCES.txt
-skid_steer_motion.egg-info/dependency_links.txt
-skid_steer_motion.egg-info/top_level.txt
