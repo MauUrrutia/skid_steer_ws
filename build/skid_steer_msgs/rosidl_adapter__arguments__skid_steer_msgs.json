@@ -1,7 +1,0 @@
-{
-  "package_name": "skid_steer_msgs",
-  "non_idl_tuples": [
-    "/home/mau/skid_steer_ws/src/skid_steer_msgs:srv/AddTwoInts.srv",
-    "/home/mau/skid_steer_ws/src/skid_steer_msgs:srv/GetTransform.srv"
-  ]
-}

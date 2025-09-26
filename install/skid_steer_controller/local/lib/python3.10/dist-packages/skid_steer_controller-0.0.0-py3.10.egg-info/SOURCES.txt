@@ -1,8 +1,0 @@
-setup.py
-skid_steer_controller/__init__.py
-skid_steer_controller/noisy_controller.py
-skid_steer_controller/simple_controller.py
-skid_steer_controller.egg-info/PKG-INFO
-skid_steer_controller.egg-info/SOURCES.txt
-skid_steer_controller.egg-info/dependency_links.txt
-skid_steer_controller.egg-info/top_level.txt
