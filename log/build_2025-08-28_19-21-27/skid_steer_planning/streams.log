@@ -1,0 +1,34 @@
+[0.297s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[0.406s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.453s] [ 50%] Built target ament_cmake_python_copy_skid_steer_planning
+[0.780s] running egg_info
+[0.781s] writing skid_steer_planning.egg-info/PKG-INFO
+[0.781s] writing dependency_links to skid_steer_planning.egg-info/dependency_links.txt
+[0.781s] writing top-level names to skid_steer_planning.egg-info/top_level.txt
+[0.784s] reading manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.784s] writing manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.814s] [ 50%] Built target ament_cmake_python_build_skid_steer_planning_egg
+[2.511s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path skid_steer_planning::DijkstraPlanner::plan_trajectory(const Pose&, const Pose&)[m[K’:
+[2.511s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:60:131:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.511s]    60 | eometry_msgs::msg::Pose &start, const geometry_msgs::msg::Pose &goal){[01;35m[K}[m[K
+[2.511s]       |                                                                       [01;35m[K^[m[K
+[2.511s] 
+[2.511s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:60:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.511s]    60 | traPlanner::plan_trajectory([01;35m[Kconst geometry_msgs::msg::Pose &start[m[K, const geometry_msgs::msg::Pose &goal){}
+[2.511s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.511s] 
+[2.512s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:60:125:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.512s]    60 | eometry_msgs::msg::Pose &start, [01;35m[Kconst geometry_msgs::msg::Pose &goal[m[K){}
+[2.512s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.512s] 
+[9.265s] [100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+[9.674s] /usr/bin/ld: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: warning: relocation against `_ZTVN19skid_steer_planning15DijkstraPlannerE' in read-only section `.text'
+[9.700s] /usr/bin/ld: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: in function `skid_steer_planning::DijkstraPlanner::DijkstraPlanner(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[9.700s] dijkstra_planner.cpp:(.text+0x10f): undefined reference to `vtable for skid_steer_planning::DijkstraPlanner'
+[9.745s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[9.752s] collect2: error: ld returned 1 exit status
+[9.756s] gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:205: dijkstra_planner] Error 1
+[9.756s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dijkstra_planner.dir/all] Error 2
+[9.757s] gmake: *** [Makefile:146: all] Error 2
+[9.760s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12

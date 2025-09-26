@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_skid_steer_planning
+running egg_info
+writing skid_steer_planning.egg-info/PKG-INFO
+writing dependency_links to skid_steer_planning.egg-info/dependency_links.txt
+writing top-level names to skid_steer_planning.egg-info/top_level.txt
+reading manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+writing manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_skid_steer_planning_egg
+[100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+/usr/bin/ld: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: warning: relocation against `_ZTVN19skid_steer_planning15DijkstraPlannerE' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: in function `skid_steer_planning::DijkstraPlanner::DijkstraPlanner(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+dijkstra_planner.cpp:(.text+0x10f): undefined reference to `vtable for skid_steer_planning::DijkstraPlanner'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:205: dijkstra_planner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dijkstra_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

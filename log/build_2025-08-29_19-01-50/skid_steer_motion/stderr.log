@@ -1,0 +1,11 @@
+[01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:[m[K In member function ‘[01m[Kvoid skid_steer_motion::PdMotionPlanner::ControlLoop()[m[K’:
+[01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:95:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kst[m[K’ has not been declared
+   95 |     cmd_vel.angular.z = [01;31m[Kst[m[K::clamp(kp * angular_error + kd * angular_error_derivative, -max_angular_vel, max_angular_vel);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kcmd_vel_publisher[m[K’?
+   97 |     [01;31m[Kcmd_publisher[m[K->publish(cmd_vel);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Kcmd_vel_publisher[m[K
+gmake[2]: *** [CMakeFiles/pd_motion_planner.dir/build.make:76: CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/pd_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

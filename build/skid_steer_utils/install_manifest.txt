@@ -1,0 +1,17 @@
+/home/mau/skid_steer_ws/install/skid_steer_utils/include/include/skid_steer_utils/follow_path_trace.hpp
+/home/mau/skid_steer_ws/install/skid_steer_utils/lib/skid_steer_utils/follow_path_trace
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/ament_index/resource_index/package_run_dependencies/skid_steer_utils
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/ament_index/resource_index/parent_prefix_path/skid_steer_utils
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/ament_prefix_path.sh
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/ament_prefix_path.dsv
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/path.sh
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/path.dsv
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.bash
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.sh
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.zsh
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.dsv
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.dsv
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/ament_index/resource_index/packages/skid_steer_utils
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/cmake/skid_steer_utilsConfig.cmake
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/cmake/skid_steer_utilsConfig-version.cmake
+/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.xml

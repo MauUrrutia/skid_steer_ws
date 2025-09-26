@@ -1,0 +1,18 @@
+[0.293s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12
+[0.393s] [35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[0.465s] [  0%] Built target ament_cmake_python_copy_skid_steer_planning
+[0.466s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.684s] running egg_info
+[0.684s] writing skid_steer_planning.egg-info/PKG-INFO
+[0.685s] writing dependency_links to skid_steer_planning.egg-info/dependency_links.txt
+[0.685s] writing top-level names to skid_steer_planning.egg-info/top_level.txt
+[0.686s] reading manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.687s] writing manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.718s] [ 50%] Built target ament_cmake_python_build_skid_steer_planning_egg
+[2.510s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:5:1:[m[K [01;31m[Kerror: [m[Kinvalid use of destructor ‘[01m[K~skid_steer_planning::DijkstraPlanner[m[K’ as a type
+[2.511s]     5 | [01;31m[KDijkstraPlanner[m[K::~DijkstraPlanner{}
+[2.511s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.051s] gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+[5.051s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dijkstra_planner.dir/all] Error 2
+[5.052s] gmake: *** [Makefile:146: all] Error 2
+[5.056s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12

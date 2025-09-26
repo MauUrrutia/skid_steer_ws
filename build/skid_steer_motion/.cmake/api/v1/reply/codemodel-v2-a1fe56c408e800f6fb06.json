@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c0c62210a95464c54b41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "skid_steer_motion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_skid_steer_motion_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_skid_steer_motion_egg-f6e54b95655267b514d1.json",
+					"name" : "ament_cmake_python_build_skid_steer_motion_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_skid_steer_motion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_skid_steer_motion-20be7b2ef319eaf4adef.json",
+					"name" : "ament_cmake_python_copy_skid_steer_motion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pd_motion_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pd_motion_planner-47597e7cc2dc45c1f2de.json",
+					"name" : "pd_motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pi_motion_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pi_motion_planner-e0378068a4c4f56df422.json",
+					"name" : "pi_motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pid_motion_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pid_motion_planner-47d773d32bdbd020621b.json",
+					"name" : "pid_motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pure_pursuit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pure_pursuit-3330a2f1f3f55649bfe2.json",
+					"name" : "pure_pursuit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_motion_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_motion_uninstall-fc574e582032e9fe5579.json",
+					"name" : "skid_steer_motion_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-621c4619b3408f57888b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mau/skid_steer_ws/build/skid_steer_motion",
+		"source" : "/home/mau/skid_steer_ws/src/skid_steer_motion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

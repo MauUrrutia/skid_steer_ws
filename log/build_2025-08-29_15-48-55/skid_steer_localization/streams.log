@@ -1,0 +1,53 @@
+[0.316s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_localization -- -j12 -l12
+[0.441s] [ 50%] Built target kalman_filter
+[0.472s] [100%] Built target imu_republisher
+[0.472s] [100%] Built target ament_cmake_python_copy_skid_steer_localization
+[0.850s] running egg_info
+[0.851s] writing skid_steer_localization.egg-info/PKG-INFO
+[0.851s] writing dependency_links to skid_steer_localization.egg-info/dependency_links.txt
+[0.852s] writing top-level names to skid_steer_localization.egg-info/top_level.txt
+[0.855s] reading manifest file 'skid_steer_localization.egg-info/SOURCES.txt'
+[0.855s] writing manifest file 'skid_steer_localization.egg-info/SOURCES.txt'
+[0.887s] [100%] Built target ament_cmake_python_build_skid_steer_localization_egg
+[1.057s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_localization -- -j12 -l12
+[1.062s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_localization
+[1.073s] -- Install configuration: ""
+[1.073s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/environment/pythonpath.sh
+[1.073s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/environment/pythonpath.dsv
+[1.073s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization-0.0.0-py3.10.egg-info
+[1.073s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.074s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.074s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization-0.0.0-py3.10.egg-info/top_level.txt
+[1.074s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[1.074s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization
+[1.074s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization/__init__.py
+[1.074s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization/imu_republisher.py
+[1.074s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization/kalman_filter.py
+[1.118s] Listing '/home/mau/skid_steer_ws/install/skid_steer_localization/local/lib/python3.10/dist-packages/skid_steer_localization'...
+[1.123s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/lib/skid_steer_localization/kalman_filter.py
+[1.123s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/lib/skid_steer_localization/imu_republisher.py
+[1.123s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/lib/skid_steer_localization/kalman_filter
+[1.123s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/lib/skid_steer_localization/imu_republisher
+[1.123s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/include/include
+[1.123s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/include/include/skid_steer_localization
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/include/include/skid_steer_localization/kalman_filter.hpp
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/launch
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/launch/local_localization.launch.py
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/config
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/config/ekf.yaml
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/ament_index/resource_index/package_run_dependencies/skid_steer_localization
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/ament_index/resource_index/parent_prefix_path/skid_steer_localization
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/environment/ament_prefix_path.sh
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/environment/ament_prefix_path.dsv
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/environment/path.sh
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/environment/path.dsv
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/local_setup.bash
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/local_setup.sh
+[1.124s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/local_setup.zsh
+[1.125s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/local_setup.dsv
+[1.125s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.dsv
+[1.125s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/ament_index/resource_index/packages/skid_steer_localization
+[1.125s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/cmake/skid_steer_localizationConfig.cmake
+[1.125s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/cmake/skid_steer_localizationConfig-version.cmake
+[1.125s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.xml
+[1.134s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_localization

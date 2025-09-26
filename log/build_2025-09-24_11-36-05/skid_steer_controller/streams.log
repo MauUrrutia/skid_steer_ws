@@ -1,0 +1,58 @@
+[0.316s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_controller -- -j12 -l12
+[0.380s] [35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
+[0.381s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.444s] [  0%] Built target ament_cmake_python_copy_skid_steer_controller
+[0.454s] [ 50%] Built target simple_controller
+[0.461s] [100%] Built target noisy_controller
+[0.831s] running egg_info
+[0.832s] writing skid_steer_controller.egg-info/PKG-INFO
+[0.832s] writing dependency_links to skid_steer_controller.egg-info/dependency_links.txt
+[0.832s] writing top-level names to skid_steer_controller.egg-info/top_level.txt
+[0.834s] reading manifest file 'skid_steer_controller.egg-info/SOURCES.txt'
+[0.834s] writing manifest file 'skid_steer_controller.egg-info/SOURCES.txt'
+[0.876s] [100%] Built target ament_cmake_python_build_skid_steer_controller_egg
+[1.118s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_controller -- -j12 -l12
+[1.121s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_controller
+[1.134s] -- Install configuration: ""
+[1.135s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/environment/pythonpath.sh
+[1.135s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/environment/pythonpath.dsv
+[1.135s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller-0.0.0-py3.10.egg-info
+[1.136s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.136s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.136s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.136s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.136s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller
+[1.136s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller/simple_controller.py
+[1.136s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller/__init__.py
+[1.137s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller/noisy_controller.py
+[1.183s] Listing '/home/mau/skid_steer_ws/install/skid_steer_controller/local/lib/python3.10/dist-packages/skid_steer_controller'...
+[1.187s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/include/include
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/include/include/skid_steer_controller
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/include/include/skid_steer_controller/simple_controller.hpp
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/include/include/skid_steer_controller/noisy_controller.hpp
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/lib/skid_steer_controller/simple_controller
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/lib/skid_steer_controller/noisy_controller
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/config
+[1.188s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/config/skid_steer_controllers.yaml
+[1.189s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/config/twist_mux.yaml
+[1.189s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/launch
+[1.189s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/launch/controller_V1.launch.py
+[1.189s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/launch/controller.launch.py
+[1.189s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/lib/skid_steer_controller/simple_controller.py
+[1.189s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/lib/skid_steer_controller/noisy_controller.py
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/ament_index/resource_index/package_run_dependencies/skid_steer_controller
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/ament_index/resource_index/parent_prefix_path/skid_steer_controller
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/environment/ament_prefix_path.sh
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/environment/ament_prefix_path.dsv
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/environment/path.sh
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/environment/path.dsv
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/local_setup.bash
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/local_setup.sh
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/local_setup.zsh
+[1.190s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/local_setup.dsv
+[1.191s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.dsv
+[1.191s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/ament_index/resource_index/packages/skid_steer_controller
+[1.191s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/cmake/skid_steer_controllerConfig.cmake
+[1.191s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/cmake/skid_steer_controllerConfig-version.cmake
+[1.191s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.xml
+[1.193s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_controller

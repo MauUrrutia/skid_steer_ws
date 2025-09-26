@@ -1,0 +1,28 @@
+[0.153s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_utils -- -j12 -l12
+[1.244s] [ 50%] [32mBuilding CXX object CMakeFiles/follow_path_trace.dir/src/follow_path_trace.cpp.o[0m
+[23.893s] [100%] [32m[1mLinking CXX executable follow_path_trace[0m
+[24.567s] [100%] Built target follow_path_trace
+[24.603s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_utils -- -j12 -l12
+[24.626s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_utils
+[24.634s] -- Install configuration: ""
+[24.643s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/include/include
+[24.643s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/include/include/skid_steer_utils
+[24.643s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/include/include/skid_steer_utils/follow_path_trace.hpp
+[24.643s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_utils/lib/skid_steer_utils/follow_path_trace
+[24.648s] -- Set runtime path of "/home/mau/skid_steer_ws/install/skid_steer_utils/lib/skid_steer_utils/follow_path_trace" to ""
+[24.649s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/ament_index/resource_index/package_run_dependencies/skid_steer_utils
+[24.650s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/ament_index/resource_index/parent_prefix_path/skid_steer_utils
+[24.650s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/ament_prefix_path.sh
+[24.650s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/ament_prefix_path.dsv
+[24.656s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/path.sh
+[24.656s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/environment/path.dsv
+[24.656s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.bash
+[24.656s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.sh
+[24.656s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.zsh
+[24.656s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/local_setup.dsv
+[24.657s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.dsv
+[24.657s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/ament_index/resource_index/packages/skid_steer_utils
+[24.663s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/cmake/skid_steer_utilsConfig.cmake
+[24.664s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/cmake/skid_steer_utilsConfig-version.cmake
+[24.664s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.xml
+[24.723s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_utils

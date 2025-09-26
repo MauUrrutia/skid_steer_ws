@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_qos_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_qos_subscriber[0m
+[ 10%] Built target simple_subscriber
+[ 20%] Built target simple_publisher
+[ 30%] Built target simple_service_client
+[ 40%] Built target simple_lifecycle_node
+[ 50%] Built target simple_service_server
+[ 60%] Built target turtlesim_kinematics
+[ 70%] Built target simple_qos_publisher
+[ 80%] Built target simple_tf_kinematics
+[ 85%] [32mBuilding CXX object CMakeFiles/simple_qos_subscriber.dir/src/simple_qos_subscriber.cpp.o[0m
+[ 95%] Built target pcl_test
+[100%] [32m[1mLinking CXX executable simple_qos_subscriber[0m
+[100%] Built target simple_qos_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/include/include
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/include/include/skid_steer_cpp_examples
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/include/include/skid_steer_cpp_examples/simple_tf_kinematics.hpp
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/include/include/skid_steer_cpp_examples/turtlesim_kinematics.hpp
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_publisher
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_subscriber
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/pcl_test
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_lifecycle_node
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/turtlesim_kinematics
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_tf_kinematics
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_service_server
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_service_client
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_qos_publisher
+-- Set runtime path of "/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_qos_publisher" to ""
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_qos_subscriber
+-- Set runtime path of "/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/skid_steer_cpp_examples/simple_qos_subscriber" to ""
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/ament_index/resource_index/package_run_dependencies/skid_steer_cpp_examples
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/ament_index/resource_index/parent_prefix_path/skid_steer_cpp_examples
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/environment/ament_prefix_path.sh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/environment/path.sh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/environment/path.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/local_setup.bash
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/local_setup.sh
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/local_setup.zsh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/local_setup.dsv
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/ament_index/resource_index/packages/skid_steer_cpp_examples
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/cmake/skid_steer_cpp_examplesConfig.cmake
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/cmake/skid_steer_cpp_examplesConfig-version.cmake
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.xml

@@ -1,0 +1,59 @@
+[0.313s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_motion -- -j12 -l12
+[0.354s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.543s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.552s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.661s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.677s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.043s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.052s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.114s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.139s] -- Looking for pthread.h
+[1.243s] -- Looking for pthread.h - found
+[1.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.323s] -- Found Threads: TRUE  
+[1.566s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.642s] -- Added test 'lint_cmake' to check CMake code style
+[1.642s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.644s] -- Added test 'xmllint' to check XML markup files
+[1.645s] -- Configuring done
+[1.652s] -- Generating done
+[1.655s] -- Build files have been written to: /home/mau/skid_steer_ws/build/skid_steer_motion
+[1.701s] Built target ament_cmake_python_copy_skid_steer_motion
+[1.942s] running egg_info
+[1.942s] creating skid_steer_motion.egg-info
+[1.943s] writing skid_steer_motion.egg-info/PKG-INFO
+[1.943s] writing dependency_links to skid_steer_motion.egg-info/dependency_links.txt
+[1.943s] writing top-level names to skid_steer_motion.egg-info/top_level.txt
+[1.943s] writing manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.944s] reading manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.945s] writing manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.969s] Built target ament_cmake_python_build_skid_steer_motion_egg
+[1.984s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_motion -- -j12 -l12
+[1.987s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_motion
+[1.997s] -- Install configuration: ""
+[1.997s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/pythonpath.sh
+[1.997s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/pythonpath.dsv
+[1.997s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info
+[1.998s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.998s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.998s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/top_level.txt
+[1.998s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/PKG-INFO
+[1.998s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion
+[1.998s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/skid_steer_motion.py
+[1.999s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/__init__.py
+[2.032s] Listing '/home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion'...
+[2.032s] Compiling '/home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/__init__.py'...
+[2.032s] Compiling '/home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/skid_steer_motion.py'...
+[2.036s] [31mCMake Error at cmake_install.cmake:70 (file):
+[2.036s]   file INSTALL cannot find
+[2.036s]   "/home/mau/skid_steer_ws/src/skid_steer_motion/skid_steer_motion/pd_motion_planner.py":
+[2.036s]   No such file or directory.
+[2.036s] 
+[2.036s] [0m
+[2.038s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_motion' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_motion

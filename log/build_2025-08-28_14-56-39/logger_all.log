@@ -1,0 +1,960 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70bc29a7d9f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70bc29b929e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70bc29b929e0>>, mixin_verb=('build',))
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.260s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mau/skid_steer_ws'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_driver' with type 'ros.ament_python' and name 'imu_driver'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_node) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lora_node' with type 'ros.ament_cmake' and name 'lora_node'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/point_cloud_processing) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/point_cloud_processing' with type 'ros.ament_cmake' and name 'point_cloud_processing'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_bringup) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_bringup' with type 'ros.ament_cmake' and name 'skid_steer_bringup'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_controller) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_controller' with type 'ros.ament_cmake' and name 'skid_steer_controller'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_cpp_examples) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_cpp_examples' with type 'ros.ament_cmake' and name 'skid_steer_cpp_examples'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_description) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_description' with type 'ros.ament_cmake' and name 'skid_steer_description'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_firmware) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_firmware' with type 'ros.ament_cmake' and name 'skid_steer_firmware'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_localization) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_localization' with type 'ros.ament_cmake' and name 'skid_steer_localization'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_msgs) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_msgs' with type 'ros.ament_cmake' and name 'skid_steer_msgs'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_navigation) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_navigation' with type 'ros.ament_cmake' and name 'skid_steer_navigation'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_py_examples) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_py_examples' with type 'ros.ament_python' and name 'skid_steer_py_examples'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_slam) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_slam' with type 'ros.ament_cmake' and name 'skid_steer_slam'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/skid_steer_utils) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/skid_steer_utils' with type 'ros.ament_cmake' and name 'skid_steer_utils'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.315s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/mau/bumperbot_ws/install
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/mau/skid_steer_ws/install
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mau/articubot_one/install
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/mau/ros2_ws/install
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/mau/TrabajoTerminal_ws/install
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 451 installed packages in /opt/ros/humble
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_target' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.375s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'imu_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/imu_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/imu_driver', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/imu_driver', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'lora_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'lora_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/lora_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/lora_node', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/lora_node', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/point_cloud_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/point_cloud_processing', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/point_cloud_processing', 'symlink_install': False, 'test_result_base': None}
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_bringup', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_controller', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_controller', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_description', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_description', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_firmware', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_localization', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_localization', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_msgs', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_navigation', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_slam', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_slam', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_utils', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_utils', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'skid_steer_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'skid_steer_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mau/skid_steer_ws/build/skid_steer_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mau/skid_steer_ws/install/skid_steer_py_examples', 'merge_install': False, 'path': '/home/mau/skid_steer_ws/src/skid_steer_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.381s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.382s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_msgs' with build type 'ament_cmake'
+[0.382s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_msgs'
+[0.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mau/skid_steer_ws/src/imu_driver' with build type 'ament_python'
+[0.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_driver', 'ament_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/hook/ament_prefix_path.ps1'
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/hook/ament_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/hook/ament_prefix_path.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/lora_node' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/lora_node'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/point_cloud_processing' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/point_cloud_processing'
+[0.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_bringup' with build type 'ament_cmake'
+[0.412s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_bringup'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_controller' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_controller'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_description' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_description'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.430s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_firmware' with build type 'ament_cmake'
+[0.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_firmware'
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_localization' with build type 'ament_cmake'
+[0.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_localization'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_navigation' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_navigation'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_slam' with build type 'ament_cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_slam'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.454s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_utils' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_utils'
+[0.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_msgs -- -j12 -l12
+[0.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mau/skid_steer_ws/src/imu_driver'
+[0.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/lora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/lora_node -- -j12 -l12
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/point_cloud_processing -- -j12 -l12
+[0.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_bringup -- -j12 -l12
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_controller -- -j12 -l12
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_description -- -j12 -l12
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_firmware -- -j12 -l12
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_localization -- -j12 -l12
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_navigation -- -j12 -l12
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_slam -- -j12 -l12
+[0.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_utils -- -j12 -l12
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_bringup -- -j12 -l12
+[0.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_bringup
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_description -- -j12 -l12
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_description
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_navigation -- -j12 -l12
+[0.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_navigation
+[0.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_slam -- -j12 -l12
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_slam
+[0.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_bringup)
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_bringup
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup' for CMake module files
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup' for CMake config files
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_bringup', 'cmake_prefix_path')
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/hook/cmake_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/hook/cmake_prefix_path.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/hook/cmake_prefix_path.sh'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/bin'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/lib/pkgconfig/skid_steer_bringup.pc'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/lib/python3.10/site-packages'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/bin'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.sh'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.bash'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.zsh'
+[0.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_bringup/share/colcon-core/packages/skid_steer_bringup)
+[0.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_bringup)
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup' for CMake config files
+[0.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_bringup', 'cmake_prefix_path')
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/hook/cmake_prefix_path.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/hook/cmake_prefix_path.dsv'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/lib/pkgconfig/skid_steer_bringup.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_bringup/bin'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.sh'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.bash'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.zsh'
+[0.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_bringup/share/colcon-core/packages/skid_steer_bringup)
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/lora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/lora_node -- -j12 -l12
+[0.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/lora_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/lora_node
+[0.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_utils -- -j12 -l12
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_utils
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_firmware -- -j12 -l12
+[0.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_slam)
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam' for CMake module files
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_firmware
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_slam
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam' for CMake config files
+[0.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_slam', 'cmake_prefix_path')
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/hook/cmake_prefix_path.ps1'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/hook/cmake_prefix_path.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/hook/cmake_prefix_path.sh'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/bin'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/lib/pkgconfig/skid_steer_slam.pc'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/lib/python3.10/site-packages'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/bin'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.sh'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.bash'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.zsh'
+[0.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_slam/share/colcon-core/packages/skid_steer_slam)
+[0.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_slam)
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam' for CMake module files
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam' for CMake config files
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_slam', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/hook/cmake_prefix_path.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/hook/cmake_prefix_path.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/lib/pkgconfig/skid_steer_slam.pc'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/lib/python3.10/site-packages'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_slam/bin'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.sh'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.bash'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_slam/share/skid_steer_slam/package.zsh'
+[0.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_slam/share/colcon-core/packages/skid_steer_slam)
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/point_cloud_processing -- -j12 -l12
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/point_cloud_processing
+[0.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_navigation)
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation' for CMake module files
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_navigation
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation' for CMake config files
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_navigation', 'cmake_prefix_path')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/hook/cmake_prefix_path.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/hook/cmake_prefix_path.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/hook/cmake_prefix_path.sh'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/bin'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/lib/pkgconfig/skid_steer_navigation.pc'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/lib/python3.10/site-packages'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/bin'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.sh'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.bash'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.zsh'
+[0.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_navigation/share/colcon-core/packages/skid_steer_navigation)
+[0.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_navigation)
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation' for CMake module files
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation' for CMake config files
+[0.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_navigation', 'cmake_prefix_path')
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/hook/cmake_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/hook/cmake_prefix_path.dsv'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/lib/pkgconfig/skid_steer_navigation.pc'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/lib/python3.10/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_navigation/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.sh'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.bash'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_navigation/share/skid_steer_navigation/package.zsh'
+[0.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_navigation/share/colcon-core/packages/skid_steer_navigation)
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_msgs -- -j12 -l12
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_msgs
+[0.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_description)
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description' for CMake module files
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_description
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_description', 'cmake_prefix_path')
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/hook/cmake_prefix_path.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/hook/cmake_prefix_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/hook/cmake_prefix_path.sh'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/bin'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/lib/pkgconfig/skid_steer_description.pc'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/lib/python3.10/site-packages'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/bin'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.sh'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.bash'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.zsh'
+[1.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_description/share/colcon-core/packages/skid_steer_description)
+[1.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_description)
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description' for CMake module files
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description' for CMake config files
+[1.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_description', 'cmake_prefix_path')
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/hook/cmake_prefix_path.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/hook/cmake_prefix_path.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/hook/cmake_prefix_path.sh'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/bin'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/lib/pkgconfig/skid_steer_description.pc'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/lib/python3.10/site-packages'
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_description/bin'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.ps1'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.sh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_description/share/skid_steer_description/package.zsh'
+[1.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_description/share/colcon-core/packages/skid_steer_description)
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lora_node)
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node' for CMake module files
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/lora_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/lora_node
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node' for CMake config files
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('lora_node', 'cmake_prefix_path')
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/hook/cmake_prefix_path.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/hook/cmake_prefix_path.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/hook/cmake_prefix_path.sh'
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/lib'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/bin'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/lib/pkgconfig/lora_node.pc'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/lib/python3.10/site-packages'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/bin'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.dsv'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.bash'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.zsh'
+[1.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/lora_node/share/colcon-core/packages/lora_node)
+[1.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lora_node)
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node' for CMake module files
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node' for CMake config files
+[1.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('lora_node', 'cmake_prefix_path')
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/hook/cmake_prefix_path.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/hook/cmake_prefix_path.dsv'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/hook/cmake_prefix_path.sh'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/lib'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/bin'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/lib/pkgconfig/lora_node.pc'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/lib/python3.10/site-packages'
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/lora_node/bin'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.dsv'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.sh'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.bash'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/lora_node/share/lora_node/package.zsh'
+[1.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/lora_node/share/colcon-core/packages/lora_node)
+[1.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_utils)
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils' for CMake module files
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_utils
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils' for CMake config files
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_utils', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/hook/cmake_prefix_path.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/lib'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/bin'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/lib/pkgconfig/skid_steer_utils.pc'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/lib/python3.10/site-packages'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/bin'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.sh'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.bash'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.zsh'
+[1.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_utils/share/colcon-core/packages/skid_steer_utils)
+[1.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_utils)
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils' for CMake module files
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils' for CMake config files
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_utils', 'cmake_prefix_path')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/hook/cmake_prefix_path.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/hook/cmake_prefix_path.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/hook/cmake_prefix_path.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/lib'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/lib/pkgconfig/skid_steer_utils.pc'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/lib/python3.10/site-packages'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_utils/bin'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.bash'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_utils/share/skid_steer_utils/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_utils/share/colcon-core/packages/skid_steer_utils)
+[1.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_firmware)
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware' for CMake module files
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_firmware
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware' for CMake config files
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_firmware', 'cmake_prefix_path')
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/cmake_prefix_path.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/cmake_prefix_path.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/cmake_prefix_path.sh'
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/lib'
+[1.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_firmware', 'ld_library_path_lib')
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/ld_library_path_lib.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/ld_library_path_lib.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/ld_library_path_lib.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/bin'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/lib/pkgconfig/skid_steer_firmware.pc'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/bin'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.dsv'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.sh'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.zsh'
+[1.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_firmware/share/colcon-core/packages/skid_steer_firmware)
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_firmware)
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware' for CMake module files
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_firmware', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/cmake_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/cmake_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/cmake_prefix_path.sh'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/lib'
+[1.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_firmware', 'ld_library_path_lib')
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/ld_library_path_lib.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/ld_library_path_lib.dsv'
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/hook/ld_library_path_lib.sh'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/bin'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/lib/pkgconfig/skid_steer_firmware.pc'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/lib/python3.10/site-packages'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_firmware/bin'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.sh'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_firmware/share/skid_steer_firmware/package.zsh'
+[1.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_firmware/share/colcon-core/packages/skid_steer_firmware)
+[1.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_processing)
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing' for CMake module files
+[1.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/point_cloud_processing
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing' for CMake config files
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_processing', 'cmake_prefix_path')
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/hook/cmake_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/hook/cmake_prefix_path.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/hook/cmake_prefix_path.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/lib'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/bin'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/lib/pkgconfig/point_cloud_processing.pc'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/lib/python3.10/site-packages'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/bin'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.sh'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.bash'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/point_cloud_processing/share/colcon-core/packages/point_cloud_processing)
+[1.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_cloud_processing)
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing' for CMake module files
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing' for CMake config files
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('point_cloud_processing', 'cmake_prefix_path')
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/hook/cmake_prefix_path.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/hook/cmake_prefix_path.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/hook/cmake_prefix_path.sh'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/lib'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/bin'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/lib/pkgconfig/point_cloud_processing.pc'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/lib/python3.10/site-packages'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/point_cloud_processing/bin'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.sh'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.bash'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.zsh'
+[1.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/point_cloud_processing/share/colcon-core/packages/point_cloud_processing)
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_msgs)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs' for CMake module files
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_msgs
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs' for CMake config files
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_msgs', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/cmake_prefix_path.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/cmake_prefix_path.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/lib'
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_msgs', 'ld_library_path_lib')
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/ld_library_path_lib.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/ld_library_path_lib.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/ld_library_path_lib.sh'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/bin'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/lib/pkgconfig/skid_steer_msgs.pc'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/lib/python3.10/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/bin'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.sh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.bash'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.zsh'
+[1.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_msgs/share/colcon-core/packages/skid_steer_msgs)
+[1.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_msgs)
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs' for CMake module files
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs' for CMake config files
+[1.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_msgs', 'cmake_prefix_path')
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/cmake_prefix_path.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/cmake_prefix_path.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/cmake_prefix_path.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/lib'
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_msgs', 'ld_library_path_lib')
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/ld_library_path_lib.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/ld_library_path_lib.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/hook/ld_library_path_lib.sh'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/bin'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/lib/pkgconfig/skid_steer_msgs.pc'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/lib/python3.10/site-packages'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_msgs/bin'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.sh'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.bash'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_msgs/share/skid_steer_msgs/package.zsh'
+[1.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_msgs/share/colcon-core/packages/skid_steer_msgs)
+[1.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_cpp_examples' with build type 'ament_cmake'
+[1.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mau/skid_steer_ws/src/skid_steer_cpp_examples'
+[1.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.107s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mau/skid_steer_ws/src/skid_steer_py_examples' with build type 'ament_python'
+[1.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_py_examples', 'ament_prefix_path')
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/hook/ament_prefix_path.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/hook/ament_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/hook/ament_prefix_path.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_cpp_examples': CMAKE_PREFIX_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs:/home/mau/bumperbot_ws/install/bumperbot_utils:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples:/home/mau/bumperbot_ws/install/bumperbot_msgs:/home/mau/bumperbot_ws/install/bumperbot_bringup:/home/mau/bumperbot_ws/install/bumperbot_mapping:/home/mau/bumperbot_ws/install/bumperbot_localization:/home/mau/bumperbot_ws/install/bumperbot_firmware:/home/mau/bumperbot_ws/install/bumperbot_description:/home/mau/bumperbot_ws/install/bumperbot_controller:/home/mau/ros2_ws/install/sllidar_ros2:/home/mau/ros2_ws/install/my_cpp_pkg:/home/mau/ros2_ws/install/ldlidar:/home/mau/ros2_ws/install/ldlidar_node:/home/mau/ros2_ws/install/ldlidar_component:/home/mau/ros2_ws/install/RPLIDAR_A1_SLAM:/home/mau/skid_steer_ws/install/skid_steer_utils:/home/mau/skid_steer_ws/install/skid_steer_slam:/home/mau/skid_steer_ws/install/skid_steer_navigation:/home/mau/skid_steer_ws/install/skid_steer_cpp_examples:/home/mau/skid_steer_ws/install/skid_steer_localization:/home/mau/skid_steer_ws/install/skid_steer_firmware:/home/mau/skid_steer_ws/install/skid_steer_description:/home/mau/skid_steer_ws/install/skid_steer_controller:/home/mau/skid_steer_ws/install/skid_steer_bringup:/home/mau/skid_steer_ws/install/point_cloud_processing:/home/mau/skid_steer_ws/install/lora_node:/home/mau/articubot_one/install/articubot_one:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/mau/bumperbot_ws/install/bumperbot_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_firmware/lib:/home/mau/ros2_ws/install/ldlidar_component/lib:/home/mau/skid_steer_ws/install/skid_steer_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_cpp_examples -- -j12 -l12
+[1.388s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mau/skid_steer_ws/src/skid_steer_py_examples'
+[1.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_controller -- -j12 -l12
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_controller
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs:/home/mau/bumperbot_ws/install/bumperbot_utils:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples:/home/mau/bumperbot_ws/install/bumperbot_msgs:/home/mau/bumperbot_ws/install/bumperbot_bringup:/home/mau/bumperbot_ws/install/bumperbot_mapping:/home/mau/bumperbot_ws/install/bumperbot_localization:/home/mau/bumperbot_ws/install/bumperbot_firmware:/home/mau/bumperbot_ws/install/bumperbot_description:/home/mau/bumperbot_ws/install/bumperbot_controller:/home/mau/ros2_ws/install/sllidar_ros2:/home/mau/ros2_ws/install/my_cpp_pkg:/home/mau/ros2_ws/install/ldlidar:/home/mau/ros2_ws/install/ldlidar_node:/home/mau/ros2_ws/install/ldlidar_component:/home/mau/ros2_ws/install/RPLIDAR_A1_SLAM:/home/mau/skid_steer_ws/install/skid_steer_utils:/home/mau/skid_steer_ws/install/skid_steer_slam:/home/mau/skid_steer_ws/install/skid_steer_navigation:/home/mau/skid_steer_ws/install/skid_steer_cpp_examples:/home/mau/skid_steer_ws/install/skid_steer_localization:/home/mau/skid_steer_ws/install/skid_steer_firmware:/home/mau/skid_steer_ws/install/skid_steer_description:/home/mau/skid_steer_ws/install/skid_steer_controller:/home/mau/skid_steer_ws/install/skid_steer_bringup:/home/mau/skid_steer_ws/install/point_cloud_processing:/home/mau/skid_steer_ws/install/lora_node:/home/mau/articubot_one/install/articubot_one:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/mau/bumperbot_ws/install/bumperbot_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_firmware/lib:/home/mau/ros2_ws/install/ldlidar_component/lib:/home/mau/skid_steer_ws/install/skid_steer_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_cpp_examples -- -j12 -l12
+[1.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_cpp_examples': CMAKE_PREFIX_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs:/home/mau/bumperbot_ws/install/bumperbot_utils:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples:/home/mau/bumperbot_ws/install/bumperbot_msgs:/home/mau/bumperbot_ws/install/bumperbot_bringup:/home/mau/bumperbot_ws/install/bumperbot_mapping:/home/mau/bumperbot_ws/install/bumperbot_localization:/home/mau/bumperbot_ws/install/bumperbot_firmware:/home/mau/bumperbot_ws/install/bumperbot_description:/home/mau/bumperbot_ws/install/bumperbot_controller:/home/mau/ros2_ws/install/sllidar_ros2:/home/mau/ros2_ws/install/my_cpp_pkg:/home/mau/ros2_ws/install/ldlidar:/home/mau/ros2_ws/install/ldlidar_node:/home/mau/ros2_ws/install/ldlidar_component:/home/mau/ros2_ws/install/RPLIDAR_A1_SLAM:/home/mau/skid_steer_ws/install/skid_steer_utils:/home/mau/skid_steer_ws/install/skid_steer_slam:/home/mau/skid_steer_ws/install/skid_steer_navigation:/home/mau/skid_steer_ws/install/skid_steer_cpp_examples:/home/mau/skid_steer_ws/install/skid_steer_localization:/home/mau/skid_steer_ws/install/skid_steer_firmware:/home/mau/skid_steer_ws/install/skid_steer_description:/home/mau/skid_steer_ws/install/skid_steer_controller:/home/mau/skid_steer_ws/install/skid_steer_bringup:/home/mau/skid_steer_ws/install/point_cloud_processing:/home/mau/skid_steer_ws/install/lora_node:/home/mau/articubot_one/install/articubot_one:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/mau/bumperbot_ws/install/bumperbot_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_firmware/lib:/home/mau/ros2_ws/install/ldlidar_component/lib:/home/mau/skid_steer_ws/install/skid_steer_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_cpp_examples
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_localization -- -j12 -l12
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_localization
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/src/imu_driver': PYTHONPATH=/home/mau/skid_steer_ws/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mau/skid_steer_ws/install/imu_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_driver build --build-base /home/mau/skid_steer_ws/build/imu_driver/build install --record /home/mau/skid_steer_ws/build/imu_driver/install.log --single-version-externally-managed install_data
+[1.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_cpp_examples)
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples' for CMake module files
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs:/home/mau/bumperbot_ws/install/bumperbot_utils:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples:/home/mau/bumperbot_ws/install/bumperbot_msgs:/home/mau/bumperbot_ws/install/bumperbot_bringup:/home/mau/bumperbot_ws/install/bumperbot_mapping:/home/mau/bumperbot_ws/install/bumperbot_localization:/home/mau/bumperbot_ws/install/bumperbot_firmware:/home/mau/bumperbot_ws/install/bumperbot_description:/home/mau/bumperbot_ws/install/bumperbot_controller:/home/mau/ros2_ws/install/sllidar_ros2:/home/mau/ros2_ws/install/my_cpp_pkg:/home/mau/ros2_ws/install/ldlidar:/home/mau/ros2_ws/install/ldlidar_node:/home/mau/ros2_ws/install/ldlidar_component:/home/mau/ros2_ws/install/RPLIDAR_A1_SLAM:/home/mau/skid_steer_ws/install/skid_steer_utils:/home/mau/skid_steer_ws/install/skid_steer_slam:/home/mau/skid_steer_ws/install/skid_steer_navigation:/home/mau/skid_steer_ws/install/skid_steer_cpp_examples:/home/mau/skid_steer_ws/install/skid_steer_localization:/home/mau/skid_steer_ws/install/skid_steer_firmware:/home/mau/skid_steer_ws/install/skid_steer_description:/home/mau/skid_steer_ws/install/skid_steer_controller:/home/mau/skid_steer_ws/install/skid_steer_bringup:/home/mau/skid_steer_ws/install/point_cloud_processing:/home/mau/skid_steer_ws/install/lora_node:/home/mau/articubot_one/install/articubot_one:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/mau/bumperbot_ws/install/bumperbot_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_firmware/lib:/home/mau/ros2_ws/install/ldlidar_component/lib:/home/mau/skid_steer_ws/install/skid_steer_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_cpp_examples
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples' for CMake config files
+[1.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_cpp_examples', 'cmake_prefix_path')
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/hook/cmake_prefix_path.sh'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/bin'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/pkgconfig/skid_steer_cpp_examples.pc'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/python3.10/site-packages'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/bin'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.ps1'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.dsv'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.sh'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.bash'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.zsh'
+[1.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/colcon-core/packages/skid_steer_cpp_examples)
+[1.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_cpp_examples)
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples' for CMake module files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples' for CMake config files
+[1.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_cpp_examples', 'cmake_prefix_path')
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/hook/cmake_prefix_path.sh'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/bin'
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/pkgconfig/skid_steer_cpp_examples.pc'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/lib/python3.10/site-packages'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/bin'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.dsv'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.sh'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/skid_steer_cpp_examples/package.zsh'
+[1.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_cpp_examples/share/colcon-core/packages/skid_steer_cpp_examples)
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_controller)
+[1.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_controller
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller' for CMake module files
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_controller', 'cmake_prefix_path')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/hook/cmake_prefix_path.ps1'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/hook/cmake_prefix_path.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/hook/cmake_prefix_path.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/lib'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/bin'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/lib/pkgconfig/skid_steer_controller.pc'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/lib/python3.10/site-packages'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/bin'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.sh'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.bash'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.zsh'
+[1.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_controller/share/colcon-core/packages/skid_steer_controller)
+[1.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_controller)
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller' for CMake module files
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_controller', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/hook/cmake_prefix_path.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/hook/cmake_prefix_path.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/lib'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/bin'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/lib/pkgconfig/skid_steer_controller.pc'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/lib/python3.10/site-packages'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_controller/bin'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.bash'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_controller/share/skid_steer_controller/package.zsh'
+[1.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_controller/share/colcon-core/packages/skid_steer_controller)
+[1.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_localization)
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization' for CMake module files
+[1.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_localization
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization' for CMake config files
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_localization', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/hook/cmake_prefix_path.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/hook/cmake_prefix_path.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/hook/cmake_prefix_path.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/lib'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/lib/pkgconfig/skid_steer_localization.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/lib/python3.10/site-packages'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/bin'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.zsh'
+[1.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_localization/share/colcon-core/packages/skid_steer_localization)
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_localization)
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization' for CMake module files
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization' for CMake config files
+[1.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_localization', 'cmake_prefix_path')
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/hook/cmake_prefix_path.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/hook/cmake_prefix_path.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/hook/cmake_prefix_path.sh'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/lib'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/bin'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/lib/pkgconfig/skid_steer_localization.pc'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/lib/python3.10/site-packages'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_localization/bin'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.sh'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.bash'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_localization/share/skid_steer_localization/package.zsh'
+[1.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_localization/share/colcon-core/packages/skid_steer_localization)
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver' for CMake module files
+[1.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/src/imu_driver' returned '0': PYTHONPATH=/home/mau/skid_steer_ws/build/imu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mau/skid_steer_ws/install/imu_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_driver build --build-base /home/mau/skid_steer_ws/build/imu_driver/build install --record /home/mau/skid_steer_ws/build/imu_driver/install.log --single-version-externally-managed install_data
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver' for CMake config files
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver/lib'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver/bin'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver/lib/pkgconfig/imu_driver.pc'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver/lib/python3.10/site-packages'
+[1.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_driver', 'pythonpath')
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/hook/pythonpath.ps1'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/hook/pythonpath.dsv'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/hook/pythonpath.sh'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/imu_driver/bin'
+[1.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_driver)
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/package.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/package.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/package.sh'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/package.bash'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/imu_driver/share/imu_driver/package.zsh'
+[1.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/imu_driver/share/colcon-core/packages/imu_driver)
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mau/skid_steer_ws/src/skid_steer_py_examples': CMAKE_PREFIX_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs:/home/mau/bumperbot_ws/install/bumperbot_utils:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples:/home/mau/bumperbot_ws/install/bumperbot_msgs:/home/mau/bumperbot_ws/install/bumperbot_bringup:/home/mau/bumperbot_ws/install/bumperbot_mapping:/home/mau/bumperbot_ws/install/bumperbot_localization:/home/mau/bumperbot_ws/install/bumperbot_firmware:/home/mau/bumperbot_ws/install/bumperbot_description:/home/mau/bumperbot_ws/install/bumperbot_controller:/home/mau/ros2_ws/install/sllidar_ros2:/home/mau/ros2_ws/install/my_cpp_pkg:/home/mau/ros2_ws/install/ldlidar:/home/mau/ros2_ws/install/ldlidar_node:/home/mau/ros2_ws/install/ldlidar_component:/home/mau/ros2_ws/install/RPLIDAR_A1_SLAM:/home/mau/skid_steer_ws/install/skid_steer_utils:/home/mau/skid_steer_ws/install/skid_steer_slam:/home/mau/skid_steer_ws/install/skid_steer_navigation:/home/mau/skid_steer_ws/install/skid_steer_cpp_examples:/home/mau/skid_steer_ws/install/skid_steer_localization:/home/mau/skid_steer_ws/install/skid_steer_firmware:/home/mau/skid_steer_ws/install/skid_steer_description:/home/mau/skid_steer_ws/install/skid_steer_controller:/home/mau/skid_steer_ws/install/skid_steer_bringup:/home/mau/skid_steer_ws/install/point_cloud_processing:/home/mau/skid_steer_ws/install/lora_node:/home/mau/articubot_one/install/articubot_one LD_LIBRARY_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/mau/bumperbot_ws/install/bumperbot_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_firmware/lib:/home/mau/ros2_ws/install/ldlidar_component/lib:/home/mau/skid_steer_ws/install/skid_steer_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib PYTHONPATH=/home/mau/skid_steer_ws/build/skid_steer_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mau/skid_steer_ws/install/skid_steer_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skid_steer_py_examples build --build-base /home/mau/skid_steer_ws/build/skid_steer_py_examples/build install --record /home/mau/skid_steer_ws/build/skid_steer_py_examples/install.log --single-version-externally-managed install_data
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples' for CMake module files
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mau/skid_steer_ws/src/skid_steer_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs:/home/mau/bumperbot_ws/install/bumperbot_utils:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples:/home/mau/bumperbot_ws/install/bumperbot_msgs:/home/mau/bumperbot_ws/install/bumperbot_bringup:/home/mau/bumperbot_ws/install/bumperbot_mapping:/home/mau/bumperbot_ws/install/bumperbot_localization:/home/mau/bumperbot_ws/install/bumperbot_firmware:/home/mau/bumperbot_ws/install/bumperbot_description:/home/mau/bumperbot_ws/install/bumperbot_controller:/home/mau/ros2_ws/install/sllidar_ros2:/home/mau/ros2_ws/install/my_cpp_pkg:/home/mau/ros2_ws/install/ldlidar:/home/mau/ros2_ws/install/ldlidar_node:/home/mau/ros2_ws/install/ldlidar_component:/home/mau/ros2_ws/install/RPLIDAR_A1_SLAM:/home/mau/skid_steer_ws/install/skid_steer_utils:/home/mau/skid_steer_ws/install/skid_steer_slam:/home/mau/skid_steer_ws/install/skid_steer_navigation:/home/mau/skid_steer_ws/install/skid_steer_cpp_examples:/home/mau/skid_steer_ws/install/skid_steer_localization:/home/mau/skid_steer_ws/install/skid_steer_firmware:/home/mau/skid_steer_ws/install/skid_steer_description:/home/mau/skid_steer_ws/install/skid_steer_controller:/home/mau/skid_steer_ws/install/skid_steer_bringup:/home/mau/skid_steer_ws/install/point_cloud_processing:/home/mau/skid_steer_ws/install/lora_node:/home/mau/articubot_one/install/articubot_one LD_LIBRARY_PATH=/home/mau/skid_steer_ws/install/skid_steer_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/mau/bumperbot_ws/install/bumperbot_msgs/lib:/home/mau/bumperbot_ws/install/bumperbot_firmware/lib:/home/mau/ros2_ws/install/ldlidar_component/lib:/home/mau/skid_steer_ws/install/skid_steer_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib PYTHONPATH=/home/mau/skid_steer_ws/build/skid_steer_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mau/skid_steer_ws/install/skid_steer_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/skid_steer_py_examples build --build-base /home/mau/skid_steer_ws/build/skid_steer_py_examples/build install --record /home/mau/skid_steer_ws/build/skid_steer_py_examples/install.log --single-version-externally-managed install_data
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples' for CMake config files
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples/lib'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples/bin'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples/lib/pkgconfig/skid_steer_py_examples.pc'
+[2.019s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples/lib/python3.10/site-packages'
+[2.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('skid_steer_py_examples', 'pythonpath')
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/hook/pythonpath.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/hook/pythonpath.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/hook/pythonpath.sh'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/mau/skid_steer_ws/install/skid_steer_py_examples/bin'
+[2.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skid_steer_py_examples)
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/package.ps1'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/package.dsv'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/package.sh'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/package.bash'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/skid_steer_py_examples/package.zsh'
+[2.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mau/skid_steer_ws/install/skid_steer_py_examples/share/colcon-core/packages/skid_steer_py_examples)
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.025s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.035s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.059s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mau/skid_steer_ws/install/local_setup.ps1'
+[2.061s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mau/skid_steer_ws/install/_local_setup_util_ps1.py'
+[2.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mau/skid_steer_ws/install/setup.ps1'
+[2.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mau/skid_steer_ws/install/local_setup.sh'
+[2.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mau/skid_steer_ws/install/_local_setup_util_sh.py'
+[2.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mau/skid_steer_ws/install/setup.sh'
+[2.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mau/skid_steer_ws/install/local_setup.bash'
+[2.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mau/skid_steer_ws/install/setup.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mau/skid_steer_ws/install/local_setup.zsh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mau/skid_steer_ws/install/setup.zsh'

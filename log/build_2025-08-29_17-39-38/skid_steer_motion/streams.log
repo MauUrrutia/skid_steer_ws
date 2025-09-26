@@ -1,0 +1,787 @@
+[0.312s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_motion -- -j12 -l12
+[0.356s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.568s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.612s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.614s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.623s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.704s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.707s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.735s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.803s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.843s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.925s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.959s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.960s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.960s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.028s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.106s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.106s] -- Configured cppcheck include dirs: /home/mau/skid_steer_ws/src/skid_steer_motion/include
+[1.106s] -- Configured cppcheck exclude dirs and/or files: 
+[1.106s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.107s] -- Added test 'lint_cmake' to check CMake code style
+[1.107s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.108s] -- Added test 'uncrustify' to check C / C++ code style
+[1.108s] -- Configured uncrustify additional arguments: 
+[1.108s] -- Added test 'xmllint' to check XML markup files
+[1.111s] -- Configuring done
+[1.124s] -- Generating done
+[1.129s] -- Build files have been written to: /home/mau/skid_steer_ws/build/skid_steer_motion
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target pd_motion_planner[0m
+[1.178s] [  0%] Built target ament_cmake_python_copy_skid_steer_motion
+[1.178s] [ 50%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+[1.437s] running egg_info
+[1.437s] writing skid_steer_motion.egg-info/PKG-INFO
+[1.437s] writing dependency_links to skid_steer_motion.egg-info/dependency_links.txt
+[1.437s] writing top-level names to skid_steer_motion.egg-info/top_level.txt
+[1.439s] reading manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.440s] writing manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.465s] [ 50%] Built target ament_cmake_python_build_skid_steer_motion_egg
+[3.286s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.286s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.287s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.287s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.287s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:[m[K In member function ‘[01m[Kvoid skid_steer_motion::PdMotionPlanner::ControlLoop()[m[K’:
+[3.287s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:82:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kconst char [44][m[K’ and ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[3.287s]    52 |         RCLCPP_ERROR(get_logger(), [32m[K"Unable to transform plan in robot's frame: "[m[K [01;31m[K<<[m[K [34m[Krobot_pose.header.frame_id[m[K);
+[3.288s]       |                                    [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.288s]       |                                    [32m[K|[m[K                                                                  [34m[K|[m[K
+[3.288s]       |                                    [32m[Kconst char [44][m[K                                                    [34m[Kstd_msgs::msg::Header_<std::allocator<void> >::_frame_id_type {aka std::__cxx11::basic_string<char>}[m[K
+[3.289s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.289s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.289s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.289s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[3.289s]    70 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[3.289s]       |     [01;36m[K^~~~~~~~[m[K
+[3.289s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.289s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.290s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.291s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.291s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.291s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.292s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.292s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.292s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.292s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[3.292s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.292s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[3.293s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[3.293s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[3.293s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[3.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.293s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.293s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.293s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.293s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+[3.294s]   667 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[3.294s]       |     [01;36m[K^~~~~~~~[m[K
+[3.294s] [01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.294s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.294s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.296s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.296s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.296s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.296s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.296s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.296s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.297s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[3.297s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[3.297s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[3.297s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.297s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.297s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.298s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.298s]  6531 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[3.298s]       |     [01;36m[K^~~~~~~~[m[K
+[3.298s] [01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.298s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.299s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.299s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.299s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.300s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.300s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.300s] In file included from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[3.300s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[3.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.300s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.300s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.300s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::error_code&)[m[K’
+[3.301s]   279 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[3.301s]       |     [01;36m[K^~~~~~~~[m[K
+[3.301s] [01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.301s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.302s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.302s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.302s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.302s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.302s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.302s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+[3.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.302s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.302s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.302s] [01m[K/usr/include/c++/11/thread:92:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::thread::id)[m[K’
+[3.302s]    92 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[3.303s]       |     [01;36m[K^~~~~~~~[m[K
+[3.303s] [01m[K/usr/include/c++/11/thread:92:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.304s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.304s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.304s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.304s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.304s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.304s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.304s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.304s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.305s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, _CharT)[m[K’
+[3.305s]   513 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[3.305s]       |     [01;36m[K^~~~~~~~[m[K
+[3.305s] [01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.305s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.306s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.306s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.306s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.306s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.306s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.306s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.306s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.307s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.307s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, char)[m[K’
+[3.307s]   518 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[3.307s]       |     [01;36m[K^~~~~~~~[m[K
+[3.307s] [01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.307s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.308s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.308s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.308s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.308s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.308s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.308s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.309s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.309s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.309s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[3.309s]   524 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[3.309s]       |     [01;36m[K^~~~~~~~[m[K
+[3.309s] [01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.309s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.310s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.310s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.310s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.310s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.310s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.310s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.311s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.311s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.311s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[3.311s]   530 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[3.311s]       |     [01;36m[K^~~~~~~~[m[K
+[3.311s] [01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.311s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.312s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.312s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.312s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.312s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.312s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.312s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.313s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.313s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.313s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[3.313s]   535 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[3.313s]       |     [01;36m[K^~~~~~~~[m[K
+[3.313s] [01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.313s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.314s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.314s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.314s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.314s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.315s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.315s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.315s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.315s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.315s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const _CharT*)[m[K’
+[3.315s]   594 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[3.316s]       |     [01;36m[K^~~~~~~~[m[K
+[3.316s] [01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.316s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.316s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.317s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.317s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.317s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.317s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.317s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.317s] In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+[3.317s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.317s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.317s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.317s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.318s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const char*)[m[K’
+[3.318s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[3.318s]       |     [01;36m[K^~~~~~~~[m[K
+[3.318s] [01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.318s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.318s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.319s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.319s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.319s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.319s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.319s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.319s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.320s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.320s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.320s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[3.320s]   611 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[3.320s]       |     [01;36m[K^~~~~~~~[m[K
+[3.320s] [01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.320s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.321s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.321s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.321s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.321s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.321s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.321s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.322s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.322s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.322s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.322s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.322s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[3.322s]   624 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[3.322s]       |     [01;36m[K^~~~~~~~[m[K
+[3.322s] [01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.322s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.322s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.322s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.323s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.323s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.323s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.323s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.323s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.324s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.324s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.324s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.324s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[3.324s]   629 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[3.324s]       |     [01;36m[K^~~~~~~~[m[K
+[3.324s] [01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.324s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.325s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.325s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.325s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.325s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.326s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.326s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[3.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.326s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.326s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.326s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[3.326s]   750 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[3.326s]       |     [01;36m[K^~~~~~~~[m[K
+[3.326s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.326s] /usr/include/c++/11/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = const char (&)[44]; _Tp = std::__cxx11::basic_string<char>][m[K’:
+[3.327s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:9:[m[K   required from here
+[3.327s] [01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[3.327s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.328s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.328s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.328s] [01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Resetiosflags)[m[K’
+[3.328s]    79 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[3.328s]       |     [01;36m[K^~~~~~~~[m[K
+[3.328s] [01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.328s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.329s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.329s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.329s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.330s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.330s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.330s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.331s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.331s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.331s] [01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setiosflags)[m[K’
+[3.331s]   109 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[3.331s]       |     [01;36m[K^~~~~~~~[m[K
+[3.331s] [01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.331s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.333s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.333s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.333s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.333s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.333s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.333s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.333s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.333s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.334s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.335s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.335s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.335s] [01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setbase)[m[K’
+[3.335s]   143 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[3.335s]       |     [01;36m[K^~~~~~~~[m[K
+[3.335s] [01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.335s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.336s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.336s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.336s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.336s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.336s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.336s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.336s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.338s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.338s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.338s] [01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setfill<_CharT>)[m[K’
+[3.338s]   178 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[3.338s]       |     [01;36m[K^~~~~~~~[m[K
+[3.338s] [01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.338s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.339s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.339s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.339s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.339s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.339s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.339s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.339s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.340s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.341s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.341s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.341s] [01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setprecision)[m[K’
+[3.341s]   208 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[3.341s]       |     [01;36m[K^~~~~~~~[m[K
+[3.341s] [01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.341s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.341s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.342s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.342s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.342s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.342s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.342s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.343s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.344s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.344s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.344s] [01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setw)[m[K’
+[3.344s]   238 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[3.344s]       |     [01;36m[K^~~~~~~~[m[K
+[3.344s] [01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.344s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.344s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.345s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.345s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.345s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.345s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.346s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.346s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.347s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.347s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.347s] [01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Put_money<_MoneyT>)[m[K’
+[3.347s]   311 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[3.347s]       |     [01;36m[K^~~~~~~~[m[K
+[3.347s] [01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.347s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.347s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.348s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.349s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.349s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.349s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.349s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.349s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[3.349s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.349s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.350s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.350s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.350s] [01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Put_time<_CharT>)[m[K’
+[3.350s]   363 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[3.351s]       |     [01;36m[K^~~~~~~~[m[K
+[3.351s] [01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.351s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.352s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/include/skid_steer_motion/pd_motion_planner.hpp:4[m[K,
+[3.352s]                  from [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:1[m[K:
+[3.352s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_motion/src/pd_motion_planner.cpp:52:103:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’ and ‘[01m[Kconst char [44][m[K’
+[3.352s]    52 |         RCLCPP_ERROR(get_logger(), "Unable to transform plan in robot's frame: " << robot_pose.header.[01;36m[Kframe_id[m[K);
+[3.352s]       |                                                                                                       [01;36m[K^~~~~~~~[m[K
+[5.245s] gmake[2]: *** [CMakeFiles/pd_motion_planner.dir/build.make:76: CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o] Error 1
+[5.246s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/pd_motion_planner.dir/all] Error 2
+[5.246s] gmake: *** [Makefile:146: all] Error 2
+[5.250s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_motion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_motion -- -j12 -l12

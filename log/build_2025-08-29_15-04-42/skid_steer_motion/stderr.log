@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/mau/skid_steer_ws/src/skid_steer_motion/skid_steer_motion/pd_motion_planner.py":
+  No such file or directory.
+
+[0m

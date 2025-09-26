@@ -1,0 +1,10 @@
+[ 10%] Built target simple_lifecycle_node
+[ 20%] Built target simple_subscriber
+[ 40%] Built target simple_qos_publisher
+[ 40%] Built target turtlesim_kinematics
+[ 50%] Built target simple_service_client
+[ 60%] Built target simple_publisher
+[ 70%] Built target simple_service_server
+[ 80%] Built target simple_qos_subscriber
+[ 90%] Built target simple_tf_kinematics
+[100%] Built target pcl_test

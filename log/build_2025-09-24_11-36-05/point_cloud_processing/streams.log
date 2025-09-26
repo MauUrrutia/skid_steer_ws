@@ -1,0 +1,32 @@
+[0.322s] Invoking command in '/home/mau/skid_steer_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/point_cloud_processing -- -j12 -l12
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target pcd_write_test[0m
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target pcd_import[0m
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target pcl_filter[0m
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target plane_cloud[0m
+[0.446s] [ 25%] Built target pcd_write_test
+[0.463s] [ 50%] Built target plane_cloud
+[0.468s] [ 75%] Built target pcd_import
+[0.526s] [100%] Built target pcl_filter
+[0.646s] Invoked command in '/home/mau/skid_steer_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/point_cloud_processing -- -j12 -l12
+[0.647s] Invoking command in '/home/mau/skid_steer_ws/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/point_cloud_processing
+[0.707s] -- Install configuration: ""
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/lib/point_cloud_processing/pcd_write_test
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/lib/point_cloud_processing/pcd_import
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/lib/point_cloud_processing/pcl_filter
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[0.707s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[0.708s] -- Installing: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[0.708s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[0.709s] -- Up-to-date: /home/mau/skid_steer_ws/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[0.750s] Invoked command in '/home/mau/skid_steer_ws/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/point_cloud_processing

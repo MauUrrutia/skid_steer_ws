@@ -1,0 +1,3 @@
+[console_scripts]
+mpu6050_driver = imu_driver.mpu6050_driver:main
+

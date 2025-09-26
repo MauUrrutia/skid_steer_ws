@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-70bb33c461ba962c0471.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "skid_steer_msgs__py",
+					"jsonFile" : "directory-skid_steer_msgs__py-b13fc65036b96df483a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mau/skid_steer_ws/build/skid_steer_msgs/skid_steer_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "skid_steer_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_skid_steer_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_skid_steer_msgs_egg-f4fb683f4418da5b985f.json",
+					"name" : "ament_cmake_python_build_skid_steer_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_skid_steer_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_skid_steer_msgs-dde336e22c1d70e3f3ba.json",
+					"name" : "ament_cmake_python_copy_skid_steer_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs-609e68be35ad77a7cbbc.json",
+					"name" : "skid_steer_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__cpp-306f258ca28a70221df4.json",
+					"name" : "skid_steer_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "skid_steer_msgs__py::@b051f7b3fa6a00afed11",
+					"jsonFile" : "target-skid_steer_msgs__py-7687c500e638bb54a844.json",
+					"name" : "skid_steer_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_generator_c-a7cf32547ce4b138fffa.json",
+					"name" : "skid_steer_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_generator_py-6bae975f28c0795ff9d7.json",
+					"name" : "skid_steer_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_c-0d3a7fe312b93aa56cbf.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_c__pyext-5b1dc55df541a54f6447.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_cpp-14566e40ca1989968dba.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_fastrtps_c-e69ef13f9e65afe87c21.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_fastrtps_c__pyext-68025a264b4c00d9b49d.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_fastrtps_cpp-b5c8245f573a1cbb9578.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_introspection_c-b1d8b08b0f037928afd7.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_introspection_c__pyext-0fa16bfba1db460f5708.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs__rosidl_typesupport_introspection_cpp-d201ce8399639e05aa3d.json",
+					"name" : "skid_steer_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skid_steer_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skid_steer_msgs_uninstall-05e85dad4b477ee6e171.json",
+					"name" : "skid_steer_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9229dc659446a6f8d6c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mau/skid_steer_ws/build/skid_steer_msgs",
+		"source" : "/home/mau/skid_steer_ws/src/skid_steer_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

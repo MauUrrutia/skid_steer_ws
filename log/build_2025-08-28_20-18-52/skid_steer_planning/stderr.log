@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: warning: relocation against `_ZTVN19skid_steer_planning15DijkstraPlannerE' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o: in function `skid_steer_planning::DijkstraPlanner::DijkstraPlanner(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+dijkstra_planner.cpp:(.text+0x10f): undefined reference to `vtable for skid_steer_planning::DijkstraPlanner'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:205: dijkstra_planner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dijkstra_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
