@@ -1,0 +1,50 @@
+[0.297s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12
+[0.426s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.464s] [ 50%] Built target ament_cmake_python_copy_skid_steer_planning
+[0.756s] running egg_info
+[0.756s] writing skid_steer_planning.egg-info/PKG-INFO
+[0.756s] writing dependency_links to skid_steer_planning.egg-info/dependency_links.txt
+[0.757s] writing top-level names to skid_steer_planning.egg-info/top_level.txt
+[0.759s] reading manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.760s] writing manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.795s] [ 50%] Built target ament_cmake_python_build_skid_steer_planning_egg
+[9.418s] [100%] [32m[1mLinking CXX executable dijkstra_planner[0m
+[9.891s] [100%] Built target dijkstra_planner
+[9.905s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12
+[9.907s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_planning
+[9.917s] -- Install configuration: ""
+[9.918s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/environment/pythonpath.sh
+[9.918s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/environment/pythonpath.dsv
+[9.918s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning-0.0.0-py3.10.egg-info
+[9.918s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.918s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.918s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning-0.0.0-py3.10.egg-info/top_level.txt
+[9.919s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[9.919s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning
+[9.919s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning/__init__.py
+[9.919s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning/dijkstra_planner.py
+[9.955s] Listing '/home/mau/skid_steer_ws/install/skid_steer_planning/local/lib/python3.10/dist-packages/skid_steer_planning'...
+[9.958s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/lib/skid_steer_planning/dijkstra_planner.py
+[9.958s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/include/include
+[9.958s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/include/include/skid_steer_planning
+[9.958s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/include/include/skid_steer_planning/dijkstra_planner.hpp
+[9.959s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_planning/lib/skid_steer_planning/dijkstra_planner
+[9.969s] -- Set runtime path of "/home/mau/skid_steer_ws/install/skid_steer_planning/lib/skid_steer_planning/dijkstra_planner" to ""
+[9.969s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/ament_index/resource_index/package_run_dependencies/skid_steer_planning
+[9.969s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/ament_index/resource_index/parent_prefix_path/skid_steer_planning
+[9.969s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/environment/ament_prefix_path.sh
+[9.969s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/environment/ament_prefix_path.dsv
+[9.970s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/environment/path.sh
+[9.970s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/environment/path.dsv
+[9.970s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/local_setup.bash
+[9.970s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/local_setup.sh
+[9.970s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/local_setup.zsh
+[9.970s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/local_setup.dsv
+[9.970s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/package.dsv
+[9.971s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/ament_index/resource_index/packages/skid_steer_planning
+[9.971s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.971s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.971s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/cmake/skid_steer_planningConfig.cmake
+[9.971s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/cmake/skid_steer_planningConfig-version.cmake
+[9.971s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_planning/share/skid_steer_planning/package.xml
+[9.973s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_planning

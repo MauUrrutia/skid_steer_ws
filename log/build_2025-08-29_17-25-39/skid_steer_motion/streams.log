@@ -1,0 +1,75 @@
+[0.296s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_motion -- -j12 -l12
+[0.339s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.545s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.546s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.677s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.702s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.773s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.801s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.931s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.001s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.001s] -- Configured cppcheck include dirs: /home/mau/skid_steer_ws/src/skid_steer_motion/include
+[1.001s] -- Configured cppcheck exclude dirs and/or files: 
+[1.002s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.003s] -- Added test 'lint_cmake' to check CMake code style
+[1.003s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.004s] -- Added test 'uncrustify' to check C / C++ code style
+[1.004s] -- Configured uncrustify additional arguments: 
+[1.004s] -- Added test 'xmllint' to check XML markup files
+[1.004s] -- Configuring done
+[1.015s] -- Generating done
+[1.020s] -- Build files have been written to: /home/mau/skid_steer_ws/build/skid_steer_motion
+[1.056s] [35m[1mConsolidate compiler generated dependencies of target pd_motion_planner[0m
+[1.075s] [  0%] Built target ament_cmake_python_copy_skid_steer_motion
+[1.078s] [100%] Built target pd_motion_planner
+[1.314s] running egg_info
+[1.314s] writing skid_steer_motion.egg-info/PKG-INFO
+[1.314s] writing dependency_links to skid_steer_motion.egg-info/dependency_links.txt
+[1.315s] writing top-level names to skid_steer_motion.egg-info/top_level.txt
+[1.316s] reading manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.316s] writing manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[1.340s] [100%] Built target ament_cmake_python_build_skid_steer_motion_egg
+[1.356s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_motion -- -j12 -l12
+[1.357s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_motion
+[1.368s] -- Install configuration: ""
+[1.368s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/pythonpath.sh
+[1.368s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/pythonpath.dsv
+[1.369s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info
+[1.369s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.369s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.369s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/top_level.txt
+[1.369s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/PKG-INFO
+[1.369s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion
+[1.370s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/__init__.py
+[1.370s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/pd_motion_planner.py
+[1.408s] Listing '/home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion'...
+[1.409s] Compiling '/home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/pd_motion_planner.py'...
+[1.412s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/lib/skid_steer_motion/pd_motion_planner.py
+[1.412s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/include/include
+[1.412s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/include/include/skid_steer_motion
+[1.412s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/include/include/skid_steer_motion/pd_motion_planner.hpp
+[1.412s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/lib/skid_steer_motion/pd_motion_planner
+[1.413s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/ament_index/resource_index/package_run_dependencies/skid_steer_motion
+[1.413s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/ament_index/resource_index/parent_prefix_path/skid_steer_motion
+[1.413s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/ament_prefix_path.sh
+[1.413s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/ament_prefix_path.dsv
+[1.413s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/path.sh
+[1.413s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/path.dsv
+[1.413s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.bash
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.sh
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.zsh
+[1.414s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.dsv
+[1.414s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/package.dsv
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/ament_index/resource_index/packages/skid_steer_motion
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/skid_steer_motionConfig.cmake
+[1.414s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/skid_steer_motionConfig-version.cmake
+[1.414s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/package.xml
+[1.417s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_motion

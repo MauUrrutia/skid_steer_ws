@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target pd_motion_planner[0m
+[  0%] Built target ament_cmake_python_copy_skid_steer_motion
+[ 50%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+running egg_info
+writing skid_steer_motion.egg-info/PKG-INFO
+writing dependency_links to skid_steer_motion.egg-info/dependency_links.txt
+writing top-level names to skid_steer_motion.egg-info/top_level.txt
+reading manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+writing manifest file 'skid_steer_motion.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_skid_steer_motion_egg
+[100%] [32m[1mLinking CXX executable pd_motion_planner[0m
+[100%] Built target pd_motion_planner
+-- Install configuration: ""
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/pythonpath.sh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/pythonpath.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/__init__.py
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion/pd_motion_planner.py
+Listing '/home/mau/skid_steer_ws/install/skid_steer_motion/local/lib/python3.10/dist-packages/skid_steer_motion'...
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/lib/skid_steer_motion/pd_motion_planner.py
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/include/include
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/include/include/skid_steer_motion
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/include/include/skid_steer_motion/pd_motion_planner.hpp
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/lib/skid_steer_motion/pd_motion_planner
+-- Set runtime path of "/home/mau/skid_steer_ws/install/skid_steer_motion/lib/skid_steer_motion/pd_motion_planner" to ""
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/ament_index/resource_index/package_run_dependencies/skid_steer_motion
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/ament_index/resource_index/parent_prefix_path/skid_steer_motion
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/ament_prefix_path.sh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/path.sh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/environment/path.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.bash
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.sh
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.zsh
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/local_setup.dsv
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/package.dsv
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/ament_index/resource_index/packages/skid_steer_motion
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/skid_steer_motionConfig.cmake
+-- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/cmake/skid_steer_motionConfig-version.cmake
+-- Installing: /home/mau/skid_steer_ws/install/skid_steer_motion/share/skid_steer_motion/package.xml

@@ -1,0 +1,23 @@
+[0.316s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_bringup -- -j12 -l12
+[0.383s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_bringup -- -j12 -l12
+[0.407s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_bringup
+[0.433s] -- Install configuration: ""
+[0.433s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/launch
+[0.433s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/launch/simulated_robot.launch.py
+[0.435s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/launch/real_robot.launch.py
+[0.435s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/ament_index/resource_index/package_run_dependencies/skid_steer_bringup
+[0.435s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/ament_index/resource_index/parent_prefix_path/skid_steer_bringup
+[0.435s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/environment/ament_prefix_path.sh
+[0.435s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/environment/ament_prefix_path.dsv
+[0.437s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/environment/path.sh
+[0.439s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/environment/path.dsv
+[0.441s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/local_setup.bash
+[0.442s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/local_setup.sh
+[0.447s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/local_setup.zsh
+[0.447s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/local_setup.dsv
+[0.447s] -- Installing: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.dsv
+[0.447s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/ament_index/resource_index/packages/skid_steer_bringup
+[0.447s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/cmake/skid_steer_bringupConfig.cmake
+[0.447s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/cmake/skid_steer_bringupConfig-version.cmake
+[0.447s] -- Up-to-date: /home/mau/skid_steer_ws/install/skid_steer_bringup/share/skid_steer_bringup/package.xml
+[0.466s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --install /home/mau/skid_steer_ws/build/skid_steer_bringup

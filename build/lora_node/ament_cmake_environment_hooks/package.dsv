@@ -1,0 +1,4 @@
+source;share/lora_node/local_setup.bash
+source;share/lora_node/local_setup.dsv
+source;share/lora_node/local_setup.sh
+source;share/lora_node/local_setup.zsh

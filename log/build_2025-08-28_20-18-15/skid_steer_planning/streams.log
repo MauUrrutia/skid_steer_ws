@@ -1,0 +1,30 @@
+[0.303s] Invoking command in '/home/mau/skid_steer_ws/build/skid_steer_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[0.425s] [  0%] Built target ament_cmake_python_copy_skid_steer_planning
+[0.430s] [ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[0.736s] running egg_info
+[0.736s] writing skid_steer_planning.egg-info/PKG-INFO
+[0.736s] writing dependency_links to skid_steer_planning.egg-info/dependency_links.txt
+[0.737s] writing top-level names to skid_steer_planning.egg-info/top_level.txt
+[0.739s] reading manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.740s] writing manifest file 'skid_steer_planning.egg-info/SOURCES.txt'
+[0.787s] [ 50%] Built target ament_cmake_python_build_skid_steer_planning_egg
+[2.618s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path skid_steer_planning::DijkstraPlanner::plan_trajectory(const Pose&, const Pose&)[m[K’:
+[2.619s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:80:33:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue reference of type ‘[01m[Kconst std::pair<int, int>&&[m[K’ to lvalue of type ‘[01m[Kstd::pair<int, int>[m[K’
+[2.619s]    80 |         for (const auto &&dir : [01;31m[Kexplore_vecinity[m[K){
+[2.619s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.619s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:80:27:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[Kdir[m[K’ of type ‘[01m[Kconst std::pair<int, int>&&[m[K’ binds to a temporary constructed from type ‘[01m[Kstd::pair<int, int>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrange-loop-construct-Wrange-loop-construct]8;;[m[K]
+[2.619s]    80 |         for (const auto &&[01;35m[Kdir[m[K : explore_vecinity){
+[2.619s]       |                           [01;35m[K^~~[m[K
+[2.619s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:80:27:[m[K [01;36m[Knote: [m[Kuse non-reference type ‘[01m[Kconst std::pair<int, int>[m[K’ to make the copy explicit or ‘[01m[Kconst std::pair<int, int>&[m[K’ to prevent copying
+[2.620s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kunsigned int skid_steer_planning::DijkstraPlanner::PoseToCell(const skid_steer_planning::GraphNode&)[m[K’:
+[2.620s] [01m[K/home/mau/skid_steer_ws/src/skid_steer_planning/src/dijkstra_planner.cpp:117:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.620s]   117 |     return node.y * map->info.width + node.x
+[2.620s]       |                                             [01;31m[K^[m[K
+[2.620s]       |                                             [32m[K;[m[K
+[2.620s]   118 | [32m[K}[m[K
+[2.620s]       | [32m[K~[m[K                                            
+[5.214s] gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+[5.214s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dijkstra_planner.dir/all] Error 2
+[5.214s] gmake: *** [Makefile:146: all] Error 2
+[5.217s] Invoked command in '/home/mau/skid_steer_ws/build/skid_steer_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mau/bumperbot_ws/install/bumperbot_py_examples:/home/mau/ros2_ws/install/my_py_pkg:/home/mau/skid_steer_ws/install/skid_steer_py_examples:/home/mau/skid_steer_ws/install/imu_driver:/opt/ros/humble /usr/bin/cmake --build /home/mau/skid_steer_ws/build/skid_steer_planning -- -j12 -l12
