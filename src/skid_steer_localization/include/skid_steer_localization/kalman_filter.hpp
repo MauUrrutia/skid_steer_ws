@@ -3,6 +3,10 @@
 #include <rclcpp/rclcpp.hpp>
 #include <nav_msgs/msg/odometry.hpp>
 #include <sensor_msgs/msg/imu.hpp>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d4bf22b2263815b5b42f3da6b40bf85c9ff48b19
 class KalmanFilter : public rclcpp::Node
 {
 private:
@@ -30,4 +34,9 @@ public:
     KalmanFilter(const std::string &name);
     
 };
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d4bf22b2263815b5b42f3da6b40bf85c9ff48b19
 #endif 

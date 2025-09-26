@@ -4,10 +4,15 @@ KalmanFilter::KalmanFilter(const std::string &name): Node(name), mean{0.0}, vari
                                                      last_vyaw{0.0}, motion{0.0}, is_first_odom{true},
                                                      motion_variance{4.0}, measurement_variance{0.5}
 {
+<<<<<<< HEAD
     odom_subscriber = create_subscription<nav_msgs::msg::Odometry>("skid_steer_controller/odom_noisy", 10, 
                       std::bind(&KalmanFilter::odom_callback, this, std::placeholders::_1));
     imu_subscriber = create_subscription<sensor_msgs::msg::Imu>("imu/out", 100, 
                       std::bind(&KalmanFilter::imu_callback, this, std::placeholders::_1));
+=======
+    odom_subscriber = create_subscription<nav_msgs::msg::Odometry>("skid_steer_controller/odom_noisy", 10, std::bind(&KalmanFilter::odom_callback, this, std::placeholders::_1));
+    imu_subscriber = create_subscription<sensor_msgs::msg::Imu>("imu/out", 100, std::bind(&KalmanFilter::imu_callback, this, std::placeholders::_1));
+>>>>>>> d4bf22b2263815b5b42f3da6b40bf85c9ff48b19
     odom_publisher = create_publisher<nav_msgs::msg::Odometry>("skid_steer_controller/odom_filtered", 10);                                   
 }
 

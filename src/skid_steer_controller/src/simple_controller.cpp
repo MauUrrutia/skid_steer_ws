@@ -80,7 +80,11 @@ void SimpleController::joint_callback(const sensor_msgs::msg::JointState &msg){
     Eigen::RowVector3d d_pos_vec = (wheel_radius * dp_right_vec + wheel_radius * dp_left_vec) / 2.0;
     Eigen::RowVector3d d_theta_vec = (wheel_radius * dp_right_vec - wheel_radius * dp_left_vec) / wheel_separation;
     double d_pos = d_pos_vec.mean() * d_pos_vec.size();
+<<<<<<< HEAD
     double d_theta = d_theta_vec.mean() * d_theta_vec.size();
+=======
+    double d_theta = d_theta_vec.mean() * d_theta_vec   .size();
+>>>>>>> d4bf22b2263815b5b42f3da6b40bf85c9ff48b19
     theta += d_theta; 
     x += d_pos * cos(theta);
     y += d_pos * sin(theta);
